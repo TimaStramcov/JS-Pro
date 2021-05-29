@@ -1,0 +1,58 @@
+.offers {
+    .offers__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .offers__item {
+        color: white;
+        width: 31%;
+        min-height: 260px;
+        background-color: $brown;
+        background-size: cover;
+        margin: 0 0 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        @include tablet {
+            min-height: 167px;
+        }
+        @include mobile {
+            width: 100%;
+            min-height: 248px;
+        }
+    }
+    .offers__item_woman {
+        background-image: url(../img/for-women.jpg);
+    }
+    .offers__item_men {
+        background-image: url(../img/for-men.jpg);
+    }
+    .offers__item_kids {
+        background-image: url(../img/for-kids.jpg);
+    }
+    .offers__item_accesories {
+        background-image: url(../img/accesories.jpg);
+        width: 100%;
+        @include tablet {
+            min-height: 116px;
+        }
+        @include mobile {
+            min-height: 111px;
+        }
+    }
+    .offers__title {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        text-transform: uppercase;
+    }
+    .offers__subtitle {
+        text-transform: uppercase;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+        color: $dark-pink;
+    }
+}

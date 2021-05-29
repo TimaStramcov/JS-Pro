@@ -1,0 +1,30 @@
+@mixin flex-center-space-between() {
+    align-items: center;
+    min-height: 75px;
+    justify-content: space-between;
+}
+
+@mixin flex-center() {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@mixin font($size: 14px, $height: 17px, $weight: 300, $style: normal) {
+    font-size: $size;
+    line-height: $height;
+    font-weight: $weight;
+    font-style: $style;
+}
+
+@mixin tablet {
+    @media (max-width: $max-tablet-width) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (max-width: $max-mobile-width) {
+        @content;
+    }
+}

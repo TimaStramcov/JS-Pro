@@ -1,0 +1,27 @@
+.perks{
+    max-width: 652px;
+    
+.perks__heading {
+    text-transform: uppercase;
+    margin: 64px 0 22px 0;
+    font-size: 24px;            
+    font-weight: 300;
+    line-height: 29px;            
+}
+
+.perks__text {
+    margin: 0 0 21px 0;
+    font-size: 24px;            
+    font-weight: 300;
+    line-height: 29px;
+}
+
+.perks__item {
+    list-style-image: url(..//img/tick-list.svg);
+    list-style-position: inside;            
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    margin: 0 0 16px 0;
+}
+}

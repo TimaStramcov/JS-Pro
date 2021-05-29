@@ -1,0 +1,37 @@
+.best {
+    background-color: $dark-blue;
+    min-height: 341px;
+    .best__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    .best__item {
+        margin: 104px 0 0 0;
+        max-width: 360px;
+    }
+    .best__title {
+        margin: 28px 0 16px 0;
+        color: $dark-white;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .best__item-text {
+        color: $dark-white;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 17px;
+    }
+}
+
+@media (max-width: $max-tablet-width) {
+    .best__list {
+        flex-direction: column;
+        padding: 0 0 64px 0;
+        margin-bottom: 0;
+    }
+    .best__item {
+        margin: 48px 0 0 0;
+    }
+}
