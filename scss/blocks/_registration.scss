@@ -1,0 +1,60 @@
+.registration {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 96px;
+    
+.registration__form {
+    max-width: 360px;
+    margin: 64px 0 0 0;
+}
+
+.registration__heading {
+    color: $dark-blue;
+    margin: 0 0 21px 0;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+}
+
+.registration__area {
+    border: 1px solid #A4A4A4;
+    margin: 0 0 21px 0;
+    width: 360px;
+    height: 45px;
+    text-indent: 17px;
+}
+
+.registration__choice-item {
+    margin: 13px 0 34px 0;
+}
+
+.registration__choice {
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 13px;
+    padding: 0 0 0 3px;
+    margin: 0 10px 0 0;
+}
+
+.registration__form-text {
+    margin:-5px 0 39px 0;
+    color: $dark-ashy;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+}
+
+.registration__button {
+    margin: 39px 0 0 0;
+    height: 50px;
+    width: 167px;
+    background-color: $dark-pink;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.registration__button-arow {
+    padding-left: 20px;
+}
+}

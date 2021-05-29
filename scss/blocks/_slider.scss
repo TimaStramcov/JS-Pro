@@ -1,0 +1,106 @@
+.slider {
+    min-height: 777px;
+    .slider__carousel {
+        background-color: #F7F7F7;
+        min-height: 777px;
+    }
+    .slider__button {
+        background-color: #2A2A2A;
+        height: 47px;
+        width: 47px;
+        margin-top: 365px;
+    }
+    .slider__item {
+        margin-left: 32%;
+        width: 37%;
+        height: auto;
+    }
+    .slider__product-info {
+        position: relative;
+        height: 601px;
+        background-color: white;
+        border: 1px solid #EAEAEA;
+        margin: -65px auto 130px auto;
+        padding: 0;
+        z-index: 2;
+    }
+    .slider__product-info-heading {
+        text-transform: uppercase;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 17px;
+        color: $dark-pink;
+        text-align: center;
+        margin: 65px 0 12px 0;
+    }
+    .slider__product-info-line {
+        height: 3px;
+        width: 63px;
+        margin: 0 0 12px 540px;
+        background-color: #EF5B70;
+    }
+    .slider__product-info-name {
+        text-transform: uppercase;
+        text-align: center;
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 22px;
+        margin-bottom: 49px;
+    }
+    .slider__product-info-text {
+        text-align: center;
+        width: 555px;
+        margin: 0 0 33px 25%;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 17px;
+    }
+    .slider__product-info-price {
+        text-align: center;
+        margin: 0 0 65px 0;
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 29px;
+        color: $dark-pink;
+    }
+    .slider__product-info-subline {
+        width: 641px;
+        color: #EAEAEA;
+        margin: 0 0 65px 22%;
+    }
+    .slider__product-info-list-wrapper {
+        min-width: 361px;
+        margin: 0 0 49px 33%;
+    }
+    .slider__product-info-list {
+        display: flex;
+    }
+    .slider__product-info-list-button {
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        text-transform: uppercase;
+        background-color: white;
+        border: none;
+    }
+    .slider__product-info-list-button-icon {
+        margin: 0 0 2px 4px;
+    }
+    .slider__product-info-button {
+        width: 211px;
+        height: 48px;
+        background-color: white;
+        color: $dark-pink;
+        border: 1px solid $dark-pink;
+        margin-left: 40%;
+    }
+    .slider__product-info-button-icon {
+        margin-right: 23px;
+        fill: $dark-pink;
+    }
+}

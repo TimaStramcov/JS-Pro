@@ -1,0 +1,28 @@
+.heading-product {
+    .heading-product__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    .heading-product__item-2 {
+        padding: 65px 0 0 0;
+    }
+    .heading-product__list {
+        display: flex;
+    }
+    .heading-product__list {
+        text-transform: uppercase;
+        font-family: Lato;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .heading-product__list-item-link {
+        text-decoration: none;
+        color: #636363;
+    }
+    .heading-product__list-item-link:hover,
+    .heading-product__list-item-link:active {
+        color: $dark-pink;
+        font-weight: 700;
+    }
+}

@@ -1,0 +1,35 @@
+.catalog {
+    .catalog__navigation {
+        margin: 3px 0 97px 39%;
+        display: flex;
+        justify-content: space-between;
+        min-height: 43px;
+        width: 283px;
+        border: 1px solid #EBEBEB;
+    }
+    .catalog__navigation-list {
+        display: flex;
+        margin: 10px 0 0 0;
+    }
+    .catalog__navigation-list-item {
+        margin: 0 12px 0 0;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 19px;
+        opacity: 0.5;
+    }
+    .catalog__navigation-list-item:hover,
+    .catalog__navigation-list-item:active {
+        opacity: 1;
+        color: $dark-pink;
+    }
+    .catalog__navigation-list-item-last-item {
+        margin: 0;
+    }
+    .catalog__navigation-button {
+        border: none;
+        background-color: white;
+        margin: 0 15px 5px 15px;
+    }
+}

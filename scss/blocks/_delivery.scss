@@ -1,0 +1,81 @@
+            .delivery {
+                margin-top: 10px;
+                .delivery__heading {
+                    font-family: Lato;
+                    font-size: 16px;
+                    font-weight: 300;
+                    line-height: 19px;
+                    text-transform: uppercase;
+                    margin: 0 0 21px 0;
+                }
+                .delivery__area {
+                    font-family: Lato;
+                    width: 360px;
+                    height: 45px;
+                    margin: 0 0 21px 0;
+                    border: 1px solid #A4A4A4;
+                    text-indent: 17px;
+                }
+                .delivery__button {
+                    width: 101px;
+                    height: 34px;
+                    background-color: white;
+                    border: 1px solid #A4A4A4;
+                    font-size: 11px;
+                    font-weight: 300;
+                    line-height: 13px;
+                    color: black;
+                    text-transform: uppercase;
+                }
+                .delivery__checkout {
+                    margin-top: 58px;
+                    width: 360px;
+                    height: 214px;
+                    background-color: #F5F3F3;
+                }
+                .delivery__checkout-subtitle {
+                    font-family: Lato;
+                    font-size: 11px;
+                    font-weight: 400;
+                    line-height: 13px;
+                    text-align: right;
+                    padding: 39px 34px 12px 0;
+                    text-transform: uppercase;
+                    color: #4A4A4A;
+                }
+                .delivery__checkout-subtitle--price {
+                    padding: 0 0 0 20px;
+                }
+                .delivery__checkout-heading {
+                    font-family: Lato;
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 19px;
+                    text-align: right;
+                    text-transform: uppercase;
+                    padding: 0 37px 21px 0;
+                    color: $dark-blue;
+                }
+                .delivery__checkout-heading--price {
+                    color: $dark-pink;
+                    padding: 0 0 0 20px;
+                }
+                .delivery__checkout-line {
+                    width: 275px;
+                    color: #E2E2E2;
+                    margin-bottom: 17px;
+                }
+                .delivery__checkout-button {
+                    width: 273px;
+                    height: 50px;
+                    border: none;
+                    font-family: Lato;
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 19px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    background-color: $dark-pink;
+                    margin: auto 44px;
+                }
+            }
