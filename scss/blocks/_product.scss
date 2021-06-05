@@ -25,9 +25,6 @@
         }
     }
     .product__list-grid {
-        // display: flex;
-        // flex-wrap: wrap;
-        // justify-content: space-between;
         display: grid;
         grid-template-columns: repeat(3, auto);
         justify-content: space-between;
@@ -39,6 +36,9 @@
     }
     .product__overlay {
         position: relative;
+        width: 360px;
+        height: 420px;
+        background-color: burlywood;
     }
     .product__overlay:before {
         content: '';

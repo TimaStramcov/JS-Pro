@@ -4,6 +4,11 @@
         margin: 0 0 41px 0;
         box-shadow: 15px 12px 25px rgba(122, 122, 122, 0.3);
     }
+    .carts__item-image {
+        background-color: $dark-pink;
+        height: 306px;
+        width: 262px;
+    }
     .carts__item-information {
         min-width: 390px;
         min-height: 306px;
