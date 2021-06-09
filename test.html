@@ -79,8 +79,8 @@
                     </div>
                     <a class="header__person-link" href="registration.html"><img src="img/logo-account.svg" alt="logo" width="29" height="29"></a>
                     <!-- <a class="header__basket-link" href="cart.html"><img src="img/logo-basket.svg" alt="logo" width="32" height="29"></a> -->
-                    <button class="header__btn-cart btn-cart"><img src="img/logo-basket.svg" alt="logo" width="32" height="29"></button>
-                    <div class="header__btn-cart-wrapper" type="button">
+                    <button class="header__btn-cart btn-cart" type="button"><img src="img/logo-basket.svg" alt="logo" width="32" height="29"></button>
+                    <div class="header__btn-cart-wrapper cart-block invisible">
 
                     </div>
                 </div>
@@ -163,11 +163,14 @@
         </section>
         <section class="product container">
             <h2 class="visually-hidden">products</h2>
+            <div class="product__item">
+                <ul class="product__list-grid">
 
+                </ul>
+            </div>
         </section>
     </main>
-    <script src="js/products.js"></script>
-    <script src="./cdn/bootstrap/bootstrap.js"></script>
+
     <footer>
         <section class="connect">
             <h2 class="visually-hidden">subscribe</h2>
@@ -260,6 +263,8 @@
             </div>
         </section>
     </footer>
+    <script src="js/copy-products.js"></script>
+    <script src="./cdn/bootstrap/bootstrap.js"></script>
 </body>
 
 </html>

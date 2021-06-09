@@ -138,21 +138,24 @@ header .header__btn-cart {
 }
 
 header .header__btn-cart-wrapper {
-  position: absolute;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.62);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.62);
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  right: 0;
+  top: 100%;
   width: 232px;
   height: 764px;
-  top: 100%;
-  right: 0;
-  background: white;
-  display: none;
+  position: absolute;
+  background-color: white;
+  padding: 20px;
+  color: black;
   z-index: 1;
-  -webkit-box-shadow: 0px 13px 11px 1px rgba(34, 60, 80, 0.16);
-          box-shadow: 0px 13px 11px 1px rgba(34, 60, 80, 0.16);
 }
 
-header .header__btn-cart:hover + .header__btn-cart-wrapper,
-header .header__btn-cart:focus + .header__btn-cart-wrapper {
-  display: block;
+header .invisible {
+  display: none;
 }
 
 header .header__navigation-button-close {
