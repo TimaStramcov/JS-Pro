@@ -3,7 +3,7 @@ const API = 'https://raw.githubusercontent.com/GeekBrainsTutorial/online-store-a
 const app = new Vue({
     el: '#app',
     data: {
-        userSeach: '',
+        userSearch: '',
         showCart: false,
         catalogUrl: '/catalogData.json',
         cartUrl: '/getBaket.json',
@@ -27,7 +27,7 @@ const app = new Vue({
                         if (find) {
                             find.quantity++;
                         } else {
-                            const prod = Object.assign({ quantity: 1 }, item); //создание нового объекта на основе двух, указанных в параметрах
+                            const prod = Object.assign({ quantity: 1 }, item);
                             this.cartItems.push(prod)
                         }
                     }
@@ -64,13 +64,13 @@ const app = new Vue({
                     this.$data.filtered.push(item);
                 }
             });
-        this.getJson(`getProducts.json`)
-            .then(data => {
-                for (let item of data) {
-                    this.products.push(item);
-                    this.filtered.push(item);
-                }
-            })
+        // this.getJson(`getProducts.json`)
+        //     .then(data => {
+        //         for (let item of data) {
+        //             this.products.push(item);
+        //             this.filtered.push(item);
+        //         }
+        //     })
     }
 });
 
